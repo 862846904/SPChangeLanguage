@@ -1,0 +1,19 @@
+/* 
+  Language.strings
+  SPChangeLanguages
+
+  Created by 刘鹏 on 2017/10/31.
+  Copyright © 2017年 Apple. All rights reserved.
+*/
+
+"SET_TITLE"         = "settings";
+"GENERAL_TITLE"     = "General";
+"LANGUAGE_TITLE"    = "Language";
+
+"LANGUAGE"          = "Language";
+"TEXT_SIZE"         = "Text Size";
+"BACKGROUND"        = "Background";
+"MY_STICKERS"       = "My Stickers";
+"PHOROS_AND_VIDEOS" = "Photos and Videos";
+"CANCEL"            = "Cancel";
+"DONE"              = "Done";

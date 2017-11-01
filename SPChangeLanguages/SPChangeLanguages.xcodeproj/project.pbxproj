@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06961D7D1FA8122D006D3246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961D7C1FA8122D006D3246 /* AppDelegate.m */; };
+		06961D851FA8122D006D3246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06961D841FA8122D006D3246 /* Assets.xcassets */; };
+		06961D881FA8122D006D3246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06961D861FA8122D006D3246 /* LaunchScreen.storyboard */; };
+		06961D8B1FA8122D006D3246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961D8A1FA8122D006D3246 /* main.m */; };
+		06961D931FA8155D006D3246 /* SPLanguageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961D921FA8155D006D3246 /* SPLanguageVC.m */; };
+		06961D961FA818E5006D3246 /* SPMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961D951FA818E5006D3246 /* SPMainVC.m */; };
+		06961D991FA81B52006D3246 /* SPGeneralVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961D981FA81B52006D3246 /* SPGeneralVC.m */; };
+		06961D9C1FA81D09006D3246 /* SPGeneralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961D9B1FA81D09006D3246 /* SPGeneralCell.m */; };
+		06961DA41FA82478006D3246 /* SPLanguageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961DA31FA82478006D3246 /* SPLanguageCell.m */; };
+		06961DA71FA827DD006D3246 /* SPLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961DA61FA827DD006D3246 /* SPLanguage.m */; };
+		06961DAA1FA859D4006D3246 /* SPLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06961DA91FA859D4006D3246 /* SPLanguageManager.m */; };
+		06961DAF1FA85EDF006D3246 /* Language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06961DB11FA85EDF006D3246 /* Language.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06961D781FA8122D006D3246 /* SPChangeLanguages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPChangeLanguages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06961D7B1FA8122D006D3246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06961D7C1FA8122D006D3246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06961D841FA8122D006D3246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06961D871FA8122D006D3246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06961D891FA8122D006D3246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06961D8A1FA8122D006D3246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06961D911FA8155D006D3246 /* SPLanguageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLanguageVC.h; sourceTree = "<group>"; };
+		06961D921FA8155D006D3246 /* SPLanguageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLanguageVC.m; sourceTree = "<group>"; };
+		06961D941FA818E5006D3246 /* SPMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMainVC.h; sourceTree = "<group>"; };
+		06961D951FA818E5006D3246 /* SPMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMainVC.m; sourceTree = "<group>"; };
+		06961D971FA81B52006D3246 /* SPGeneralVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGeneralVC.h; sourceTree = "<group>"; };
+		06961D981FA81B52006D3246 /* SPGeneralVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGeneralVC.m; sourceTree = "<group>"; };
+		06961D9A1FA81D09006D3246 /* SPGeneralCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGeneralCell.h; sourceTree = "<group>"; };
+		06961D9B1FA81D09006D3246 /* SPGeneralCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGeneralCell.m; sourceTree = "<group>"; };
+		06961DA21FA82478006D3246 /* SPLanguageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLanguageCell.h; sourceTree = "<group>"; };
+		06961DA31FA82478006D3246 /* SPLanguageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLanguageCell.m; sourceTree = "<group>"; };
+		06961DA51FA827DD006D3246 /* SPLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLanguage.h; sourceTree = "<group>"; };
+		06961DA61FA827DD006D3246 /* SPLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLanguage.m; sourceTree = "<group>"; };
+		06961DA81FA859D4006D3246 /* SPLanguageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLanguageManager.h; sourceTree = "<group>"; };
+		06961DA91FA859D4006D3246 /* SPLanguageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLanguageManager.m; sourceTree = "<group>"; };
+		06961DAB1FA85E36006D3246 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		06961DAC1FA85E58006D3246 /* zh-Hans-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-HK"; path = "zh-Hans-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		06961DB01FA85EDF006D3246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Language.strings; sourceTree = "<group>"; };
+		06961DB21FA85EE6006D3246 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/Language.strings"; sourceTree = "<group>"; };
+		06961DB31FA85EE8006D3246 /* zh-Hans-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-HK"; path = "zh-Hans-HK.lproj/Language.strings"; sourceTree = "<group>"; };
+		06961DB41FA860ED006D3246 /* SPChangeLanguages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPChangeLanguages-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06961D751FA8122D006D3246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06961D6F1FA8122D006D3246 = {
+			isa = PBXGroup;
+			children = (
+				06961D7A1FA8122D006D3246 /* SPChangeLanguages */,
+				06961D791FA8122D006D3246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06961D791FA8122D006D3246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06961D781FA8122D006D3246 /* SPChangeLanguages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06961D7A1FA8122D006D3246 /* SPChangeLanguages */ = {
+			isa = PBXGroup;
+			children = (
+				06961D7B1FA8122D006D3246 /* AppDelegate.h */,
+				06961D7C1FA8122D006D3246 /* AppDelegate.m */,
+				06961D941FA818E5006D3246 /* SPMainVC.h */,
+				06961D951FA818E5006D3246 /* SPMainVC.m */,
+				06961D9A1FA81D09006D3246 /* SPGeneralCell.h */,
+				06961D9B1FA81D09006D3246 /* SPGeneralCell.m */,
+				06961D971FA81B52006D3246 /* SPGeneralVC.h */,
+				06961D981FA81B52006D3246 /* SPGeneralVC.m */,
+				06961DA51FA827DD006D3246 /* SPLanguage.h */,
+				06961DA61FA827DD006D3246 /* SPLanguage.m */,
+				06961DA21FA82478006D3246 /* SPLanguageCell.h */,
+				06961DA31FA82478006D3246 /* SPLanguageCell.m */,
+				06961D911FA8155D006D3246 /* SPLanguageVC.h */,
+				06961D921FA8155D006D3246 /* SPLanguageVC.m */,
+				06961DA81FA859D4006D3246 /* SPLanguageManager.h */,
+				06961DA91FA859D4006D3246 /* SPLanguageManager.m */,
+				06961D841FA8122D006D3246 /* Assets.xcassets */,
+				06961D861FA8122D006D3246 /* LaunchScreen.storyboard */,
+				06961D891FA8122D006D3246 /* Info.plist */,
+				06961D8A1FA8122D006D3246 /* main.m */,
+				06961DB11FA85EDF006D3246 /* Language.strings */,
+				06961DB41FA860ED006D3246 /* SPChangeLanguages-Prefix.pch */,
+			);
+			path = SPChangeLanguages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06961D771FA8122D006D3246 /* SPChangeLanguages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06961D8E1FA8122D006D3246 /* Build configuration list for PBXNativeTarget "SPChangeLanguages" */;
+			buildPhases = (
+				06961D741FA8122D006D3246 /* Sources */,
+				06961D751FA8122D006D3246 /* Frameworks */,
+				06961D761FA8122D006D3246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPChangeLanguages;
+			productName = SPChangeLanguages;
+			productReference = 06961D781FA8122D006D3246 /* SPChangeLanguages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06961D701FA8122D006D3246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					06961D771FA8122D006D3246 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06961D731FA8122D006D3246 /* Build configuration list for PBXProject "SPChangeLanguages" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans-CN",
+				"zh-Hans-HK",
+			);
+			mainGroup = 06961D6F1FA8122D006D3246;
+			productRefGroup = 06961D791FA8122D006D3246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06961D771FA8122D006D3246 /* SPChangeLanguages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06961D761FA8122D006D3246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06961DAF1FA85EDF006D3246 /* Language.strings in Resources */,
+				06961D881FA8122D006D3246 /* LaunchScreen.storyboard in Resources */,
+				06961D851FA8122D006D3246 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06961D741FA8122D006D3246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06961D931FA8155D006D3246 /* SPLanguageVC.m in Sources */,
+				06961DA41FA82478006D3246 /* SPLanguageCell.m in Sources */,
+				06961D8B1FA8122D006D3246 /* main.m in Sources */,
+				06961D961FA818E5006D3246 /* SPMainVC.m in Sources */,
+				06961D991FA81B52006D3246 /* SPGeneralVC.m in Sources */,
+				06961D7D1FA8122D006D3246 /* AppDelegate.m in Sources */,
+				06961DAA1FA859D4006D3246 /* SPLanguageManager.m in Sources */,
+				06961DA71FA827DD006D3246 /* SPLanguage.m in Sources */,
+				06961D9C1FA81D09006D3246 /* SPGeneralCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06961D861FA8122D006D3246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06961D871FA8122D006D3246 /* Base */,
+				06961DAB1FA85E36006D3246 /* zh-Hans-CN */,
+				06961DAC1FA85E58006D3246 /* zh-Hans-HK */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		06961DB11FA85EDF006D3246 /* Language.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06961DB01FA85EDF006D3246 /* en */,
+				06961DB21FA85EE6006D3246 /* zh-Hans-CN */,
+				06961DB31FA85EE8006D3246 /* zh-Hans-HK */,
+			);
+			name = Language.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06961D8C1FA8122D006D3246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06961D8D1FA8122D006D3246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06961D8F1FA8122D006D3246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "SPChangeLanguages/SPChangeLanguages-Prefix.pch";
+				INFOPLIST_FILE = SPChangeLanguages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nfjd.SPChangeLanguages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06961D901FA8122D006D3246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "SPChangeLanguages/SPChangeLanguages-Prefix.pch";
+				INFOPLIST_FILE = SPChangeLanguages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nfjd.SPChangeLanguages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06961D731FA8122D006D3246 /* Build configuration list for PBXProject "SPChangeLanguages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06961D8C1FA8122D006D3246 /* Debug */,
+				06961D8D1FA8122D006D3246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06961D8E1FA8122D006D3246 /* Build configuration list for PBXNativeTarget "SPChangeLanguages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06961D8F1FA8122D006D3246 /* Debug */,
+				06961D901FA8122D006D3246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06961D701FA8122D006D3246 /* Project object */;
+}

@@ -1,0 +1,44 @@
+//
+//  SPChangeLanguages-Prefix.pch
+//  SPChangeLanguages
+//
+//  Created by 刘鹏 on 2017/10/31.
+//  Copyright © 2017年 Apple. All rights reserved.
+//
+
+#ifndef SPChangeLanguages_Prefix_pch
+#define SPChangeLanguages_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SPChangeLanguages_Prefix_pch */
+
+#import "SPLanguageManager.h"
+
+#define SET_TITLE           @"SET_TITLE"            // 设置标题
+#define GENERAL_TITLE       @"GENERAL_TITLE"        // 通用标题
+#define LANGUAGE_TITLE      @"LANGUAGE_TITLE"       // 设置语言标题
+
+#define LANGUAGE            @"LANGUAGE"             // 语言
+#define TEXT_SIZE           @"TEXT_SIZE"            // 字型大小
+#define BACKGROUND          @"BACKGROUND"           // 聊天背景
+#define MY_STICKERS         @"MY_STICKERS"          // 我的表情
+#define PHOROS_AND_VIDEOS   @"PHOROS_AND_VIDEOS"    // 照片和视频
+
+#define CANCEL              @"CANCEL"               // 取消
+#define DONE                @"DONE"                 // 完成
+
+// 快捷获取key对应的语言值
+#define GET_VALUE(key) [SPLanguageManager sharedLanguageManager].language_dict[key]
+
+// 语言key
+#define ZH_HANS_CN_KEY @"zh-Hans-CN"
+#define ZH_HANS_HK_KEY  @"zh-Hans-HK"
+#define EN_KEY  @"en"
+
+// 语言
+#define ZH_HANS_CN_VALUE @"简体中文"
+#define ZH_HANS_HK_VALUE  @"繁体中文（香港）"
+#define EN_VALUE  @"English"
+
